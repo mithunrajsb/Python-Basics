@@ -1,0 +1,16 @@
+import unittest
+
+from AddNumbers import Numbers
+
+class TestNumbers(unittest.TestCase):
+
+    def test_init(self):
+        num1 = Numbers()
+
+    def test_addnumbers(self):
+        nums = Numbers()
+        self.assertEqual(5,nums.Add(2,3))
+        #self.assertEqual()
+
+if __name__ == '__main__':
+    unittest.main()
