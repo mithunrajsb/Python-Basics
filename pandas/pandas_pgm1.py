@@ -10,6 +10,8 @@ df = pd.DataFrame(data)
 # Displaying specific columns
 print(df['Name'])  # Display 'Name' column
 
+print(df['City'])  # Display "City" columns
+
 # Filtering data
 filtered_data = df[df['Age'] > 25]  # Get rows where Age > 25
 
