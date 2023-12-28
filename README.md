@@ -8,3 +8,4 @@ The belomw examples are covered under DataStructures & BuildInFunctions
     Queue
     Map
     Filter
+    reduce
