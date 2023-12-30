@@ -15,3 +15,6 @@ def isPrime(n):
 
 
 print(isPrime.__doc__)
+
+#print(help(isPrime))
+
