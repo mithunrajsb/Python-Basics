@@ -1,4 +1,6 @@
-# Empty classes
+# Empty classes 
+# It is possible to start with an empty class but add 
+# instance variables directly in the instances
 
 class A: pass
 
