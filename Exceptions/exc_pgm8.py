@@ -9,7 +9,7 @@ def divideAndPrint():
 
     except ValueError:
         print("Please enter an integer !")
-
+        raise
 
 try:
     divideAndPrint()
