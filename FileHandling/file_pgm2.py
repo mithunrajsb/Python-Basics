@@ -3,7 +3,7 @@ from math import factorial
 try:
     fileName = "factorials.txt"
     file = open(fileName,"w")
-    for i in range(1,11):
+    for i in range(1,51):
         file.write("The factorial of {} is {}\n".format(i,factorial(i)))
 
 except Exception as e:
