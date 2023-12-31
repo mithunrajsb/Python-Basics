@@ -1,0 +1,1 @@
+print("Package pkg2 loaded successfully")
