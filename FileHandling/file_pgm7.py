@@ -1,5 +1,6 @@
-# Displaying the last 10 lines of a file using tail command
+# Displaying the first 10 & last 10 lines of a file 
 fileName = "factorials.txt"
+start = 
 
 try:
     file=open(fileName)
