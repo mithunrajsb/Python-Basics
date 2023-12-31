@@ -1,7 +1,9 @@
 # Operator overloading
 
-class A: pass
-
+class A:
+    def __add__(self,x):pass
 o = A()
 i=10
-o+i
+o+i  
+
+print(o+i)
