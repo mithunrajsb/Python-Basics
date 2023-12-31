@@ -10,4 +10,3 @@ else:
     print("100/{} = {}".format(n, result))
 finally:
     print("exiting the program..finally")
-print("exiting")
