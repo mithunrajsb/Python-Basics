@@ -8,4 +8,6 @@ except:
     print("Sorry..Unable to calculate..")
 else:
     print("100/{} = {}".format(n, result))
-print("exiting the program")
+finally:
+    print("exiting the program..finally")
+print("exiting")
