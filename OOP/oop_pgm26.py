@@ -6,4 +6,4 @@ o = A()
 i=10
 o+i  
 
-print(o+i)
+i+o  # TypeError: unsupported operand type(s) for +: 'int' and 'A'
