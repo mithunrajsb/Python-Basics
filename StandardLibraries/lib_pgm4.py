@@ -11,4 +11,4 @@ print(t)
 
 print(zlib.decompress(t))
 
-print(zlib.crc32(s))
+print(zlib.crc32(s))  # Computes CRC-32 checksum of data
