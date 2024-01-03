@@ -30,9 +30,13 @@ if __name__ == "__main__":
     import sys
     doctest.testmod()
 
-    print(sys.getrecursionlimit())
-    sys.setrecursionlimit(5000)
-    inputs = [5, 10, 15, 20, 256, 800,4096]
+    print(sys.getrecursionlimit())  # Checking the system recursion limit . By default it is 1000. fact(1024) will fail.
+                                    # RecursionError: maximum recursion depth exceeded
+
+    sys.setrecursionlimit(5000)  # Setting the system recursion limit to 5000.
+
+    print(sys.getrecursionlimit()) 
+    inputs = [5, 10, 15, 20, 256, 800, 4096]
 
     for num in inputs:
         # Construct the statement to test with timeit
