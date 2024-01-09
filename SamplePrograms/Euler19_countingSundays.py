@@ -43,7 +43,8 @@ def count_sundays_on_first():
 
             # Move to the next month
             day_of_week = (day_of_week + days_in_month) % 7
-
+            # print the day in each month
+            print("day_of_week in {} after month {} is {}".format(year,month,day_of_week))
     return count
 
 if __name__ == "__main__":
