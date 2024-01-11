@@ -5,5 +5,6 @@ class Date:
 
 
 d=Date()
+# Calling the method of the class
 d.setDate(1,12,2023)
 print(d.day," ",d.month," ",d.year)

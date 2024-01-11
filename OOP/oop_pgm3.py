@@ -8,7 +8,11 @@ class Date:
         print("{}-{}-{}".format(self.getDay(),self.getMonth(),self.getYear()))
     
 
+from datetime import datetime
 
 d=Date()
-d.setDate(1,12,2023)
+current_datetime = datetime.now()
+current_date = current_datetime.date()
+# Setting the date to current date
+d.setDate(current_date.day,current_date.month,current_date.year)
 d.print()
