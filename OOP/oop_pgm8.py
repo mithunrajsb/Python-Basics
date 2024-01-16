@@ -1,8 +1,10 @@
 # Inheritance
 
+# Base class
 class A:
     pass
 
+# Derived class
 class B(A):
     pass
 
